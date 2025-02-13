@@ -6,15 +6,14 @@ public static void main(String data[]){
 	Scanner sc2 = new Scanner(System.in);
 	int i = 0;
 	System.out.println("Enter a Number : ");
-	i = sc1.nextInt();
-	
+	i=sc1.nextInt();
+	sc1.nextLine();		
 	System.out.println("Enter a Name : ");
-	String name= sc2.nextLine();
-	System.out.println("Enter Reg Number : ");
-	String reg= sc2.nextLine();
+	String name= sc1.nextLine();
+       	System.out.println("Enter Reg Number : ");
+	String reg= sc1.nextLine();
 	System.out.printf("Your Enter Number is %d \n",i);
 	System.out.printf("Your Enter Name is %s \n",name);
 	System.out.printf("Your reg Number is %s \n",reg);
 	}
-
 }
